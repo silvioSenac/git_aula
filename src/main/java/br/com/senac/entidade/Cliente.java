@@ -5,10 +5,26 @@
  */
 package br.com.senac.entidade;
 
+import java.io.Serializable;
+import javax.persistence.*;
+
 /**
  *
  * @author marie
  */
-public class Cliente {
+@Entity
+@Table(name = "cliente")
+public class Cliente implements Serializable {
+
+    @Id
+    private Long id;
+
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
     
 }
