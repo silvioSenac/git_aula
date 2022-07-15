@@ -17,7 +17,7 @@ import static org.junit.Assert.*;
 public class UsuarioDaoImplTest {
     
     private Usuario usuario;
-    private UsuarioDao usuarioDao;
+    private final UsuarioDao usuarioDao;
     private Session sessao;
     
     public UsuarioDaoImplTest() {
@@ -37,6 +37,11 @@ public class UsuarioDaoImplTest {
     //@Test
     public void testPesquisarPorId() {
         System.out.println("pesquisarPorId");        
+    }
+    
+    //@Test
+    public void testPesquisarPorNome() {
+        System.out.println("pesquisarPorNome");        
     }
     
 }
