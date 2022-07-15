@@ -36,12 +36,14 @@ public class UsuarioDaoImplTest {
     
     //@Test
     public void testPesquisarPorId() {
-        System.out.println("pesquisarPorId");        
+        System.out.println("pesquisarPorId"); 
+        System.out.println(" ");
     }
     
     //@Test
     public void testPesquisarPorNome() {
-        System.out.println("pesquisarPorNome");        
+        System.out.println("pesquisarPorNome");  
+        System.out.println("  ");
     }
     
 }
